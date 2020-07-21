@@ -11,7 +11,7 @@ Choose from one of these melons:
 
 Watermelon $1,200.00
 Canteloupe $400.00
-Honeydew $1,750,00.00
+Honeydew $1,750.50
 
 Order Form
 
@@ -33,3 +33,87 @@ Enter your message:
 
 Subscribe to our newsletter
 Yes
+
+
+
+<!doctype html>
+<html>
+<head>
+    <title>Order a melongram!</title>
+</head>
+<body> 
+    <h1> Order a melongram.</h1>
+        <p>
+            Feeling a type of way? Send your loved one a melon.
+            That'll get the point across.
+        </p>
+        <p>
+        Print a personal message to on one of our custom designed cards
+        and choose and accompanying melon.
+        </p>
+    
+    <h2>Melon Options:</h2>
+    <p>Choose your melon.</p>
+    <table>
+        <tr>
+            <td>Watermelon</td>
+            <td>$1200.00</td>
+        </tr>
+        <tr>
+            <td>Cantaloupe</td>
+            <td>$400.00</td>
+        </tr>
+            <td>Honeydew</td>
+            <td>$1750.50</td>
+        </tr>
+    </table>
+        
+
+    <h2>Order Form</h2>
+    <form>
+        <div>
+            Name
+            <input type="text" name="name">
+        </div>
+
+        <div>
+            Recipient
+            <input type="text" name="recipient">
+        </div>
+
+        <div>
+            Choose a melon
+                <select> name="melons">
+                    <option value="Watermelon">Watermelon</option>
+                    <option value="Cantaloupe">Cantaloupe</option>
+                    <option value="Honeydew">Honeydew</option>
+                </select>
+        </div>
+
+        <div>
+            <input type="text" name="name">Name
+            <input type="text" name="email">Email
+            <input type="text" name="recipient">Melongram Recipient
+            <input type="submit">
+        </div>
+
+        <div>When should we deliver?
+            <input type="radio" name="time" value="am">Morning
+            <input type="radio" name="time" value="pm">Evening
+            <input type="radio" name="time" value="any time">Any time
+        </div>
+
+        <div>
+            <label>Enter your message:</label>
+            <textarea name="message"></textarea>
+        </div>
+
+        <div>Subscribe to our newsletter
+            <input type="checkbox" name="subscribe" value="Yes">
+        </div>
+
+        <input type="submit">
+
+    </form>
+</body>
+</html>
